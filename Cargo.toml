@@ -1,0 +1,13 @@
+[package]
+name = "libipset-sys"
+version = "0.1.0"
+authors = ["Thomas Adam <thomas.adam@smoothwall.net>"]
+edition = "2018"
+#links = "ipset"
+build = "build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+autotools = "0.2"
+bindgen = "*"
